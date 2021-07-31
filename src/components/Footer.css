@@ -1,0 +1,22 @@
+.logos {
+  margin-top: 4rem;
+}
+
+.logos > i {
+  color: hsl(223, 87%, 63%);
+  height: 0.6rem;
+  margin: 0 0.8rem;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.logos > i:hover {
+  color: white;
+  background-color: hsl(223, 87%, 63%);
+}
+
+h6 {
+  margin-top: 1.5rem;
+  color: hsl(0, 0%, 59%);
+  font-size: 0.5em;
+}

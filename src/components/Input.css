@@ -1,0 +1,50 @@
+.form-group {
+  margin-top: 2rem;
+}
+
+input {
+  border: 0.5px solid hsl(0, 0%, 59%);
+  width: 80%;
+  height: 2.4rem;
+  max-width: 100%;
+  font-size: 0.7em;
+  border-radius: 2rem;
+  padding-left: 1.8rem;
+  color: hsl(0, 0%, 59%);
+}
+
+.div-input p {
+  margin-top: 0.2rem;
+  color: hsl(354, 100%, 66%);
+  font-size: 0.7em;
+}
+
+.warning {
+  border: 1px solid hsl(354, 100%, 66%);
+}
+
+@media (min-width: 56em) {
+  .form-group {
+    display: grid;
+    grid-template-columns: 70% auto;
+  }
+
+  .div-input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .div-input input {
+    width: 90%;
+    margin-right: 0.8rem;
+    margin-left: 2rem;
+  }
+
+  .div-input p {
+    margin-left: 3rem;
+    text-align: start;
+    display: inline-block;
+  }
+  
+}
