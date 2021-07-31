@@ -1,3 +1,3 @@
-# # Static landin page
+# # Static landing page
 
 # Mobile-first!
